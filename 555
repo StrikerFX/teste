@@ -1,0 +1,634 @@
+
+C:\Projects\OpenSteamTool-main\build>cmake .. -G "Visual Studio 17 2022" -A x64
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- The C compiler identification is MSVC 19.41.34123.0
+-- The CXX compiler identification is MSVC 19.41.34123.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- FetchContent: populating missing sources into C:/Projects/OpenSteamTool-main/.deps
+-- Build spdlog: 1.17.0
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Build type:
+-- Looking for _fwrite_nolock
+-- Looking for _fwrite_nolock - found
+--
+-- 3.15.3.0
+-- Generated C:/Projects/OpenSteamTool-main/build/src/generated/ost_log_macros.h
+-- Configuring done (49.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Projects/OpenSteamTool-main/build
+
+C:\Projects\OpenSteamTool-main\build>cmake --build . --config Release
+Versão do MSBuild 17.14.40+3e7442088 para .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Projects/OpenSteamTool-main/src/CMakeLists.txt
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\build\src\detours.vcx
+proj]
+  detours.cpp
+  modules.cpp
+  disasm.cpp
+  image.cpp
+  creatwth.cpp
+  disolx64.cpp
+  Gerando Código...
+  detours.vcxproj -> C:\Projects\OpenSteamTool-main\build\src\Release\detours.lib
+  Building Custom Rule C:/Projects/OpenSteamTool-main/.deps/protobuf-src/cmake/CMakeLists.txt
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf.vcxproj]
+  any_lite.cc
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf.vcxproj]
+  arena.cc
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf.vcxproj]
+  arenastring.cc
+  extension_set.cc
+  generated_enum_util.cc
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf.vcxproj]
+  generated_message_table_driven_lite.cc
+  generated_message_util.cc
+  implicit_weak_message.cc
+  coded_stream.cc
+  io_win32.cc
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf.vcxproj]
+  strtod.cc
+  zero_copy_stream.cc
+  zero_copy_stream_impl.cc
+  zero_copy_stream_impl_lite.cc
+  map.cc
+  message_lite.cc
+  parse_context.cc
+  repeated_field.cc
+  bytestream.cc
+  common.cc
+  int128.cc
+  status.cc
+  statusor.cc
+  stringpiece.cc
+  stringprintf.cc
+  structurally_valid.cc
+  strutil.cc
+  time.cc
+  wire_format_lite.cc
+  any.cc
+  any.pb.cc
+  api.pb.cc
+  importer.cc
+  parser.cc
+  descriptor.cc
+  descriptor.pb.cc
+  descriptor_database.cc
+  duration.pb.cc
+  dynamic_message.cc
+  empty.pb.cc
+  extension_set_heavy.cc
+  field_mask.pb.cc
+  generated_message_reflection.cc
+  generated_message_table_driven.cc
+  gzip_stream.cc
+  printer.cc
+  tokenizer.cc
+  map_field.cc
+  message.cc
+  reflection_ops.cc
+  service.cc
+  source_context.pb.cc
+  struct.pb.cc
+  substitute.cc
+  text_format.cc
+  timestamp.pb.cc
+  type.pb.cc
+  unknown_field_set.cc
+  delimited_message_util.cc
+  field_comparator.cc
+  field_mask_util.cc
+  datapiece.cc
+  default_value_objectwriter.cc
+  error_listener.cc
+  field_mask_utility.cc
+  json_escaping.cc
+  json_objectwriter.cc
+  json_stream_parser.cc
+  object_writer.cc
+  proto_writer.cc
+  protostream_objectsource.cc
+  protostream_objectwriter.cc
+  type_info.cc
+  type_info_test_helper.cc
+  utility.cc
+  json_util.cc
+  message_differencer.cc
+  time_util.cc
+  type_resolver_util.cc
+  wire_format.cc
+  wrappers.pb.cc
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(17,9): warning C4005: '_WINSOCKAPI_': redefin
+ição de macro [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\libprotobuf.vcxproj]
+  (compilando o arquivo fonte '../protobuf-src/src/google/protobuf/util/time_util.cc')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(17,9):
+      '_WINSOCKAPI_' declarado anteriormente na linha de comando
+
+  libprotobuf.vcxproj -> C:\Projects\OpenSteamTool-main\.deps\protobuf-build\Release\libprotobuf.lib
+  Building Custom Rule C:/Projects/OpenSteamTool-main/src/CMakeLists.txt
+  lapi.c
+  lauxlib.c
+  lbaselib.c
+  lcode.c
+  lcorolib.c
+  lctype.c
+  ldblib.c
+  ldebug.c
+  ldo.c
+  ldump.c
+  lfunc.c
+  lgc.c
+  linit.c
+  liolib.c
+  llex.c
+  lmathlib.c
+  lmem.c
+  loadlib.c
+  lobject.c
+  lopcodes.c
+  Gerando Código...
+  Compilando...
+  loslib.c
+  lparser.c
+  lstate.c
+  lstring.c
+  lstrlib.c
+  ltable.c
+  ltablib.c
+  ltm.c
+  lundump.c
+  lutf8lib.c
+  lvm.c
+  lzio.c
+  Gerando Código...
+  lua_static.vcxproj -> C:\Projects\OpenSteamTool-main\build\src\Release\lua_static.lib
+  Building Custom Rule C:/Projects/OpenSteamTool-main/.deps/protobuf-src/cmake/CMakeLists.txt
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotoc.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotoc.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotoc.vcxproj]
+  code_generator.cc
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotoc.vcxproj]
+  command_line_interface.cc
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotoc.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotoc.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotoc.vcxproj]
+  cpp_enum.cc
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotoc.vcxproj]
+  cpp_enum_field.cc
+  cpp_extension.cc
+  cpp_field.cc
+  cpp_file.cc
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotoc.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotoc.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotoc.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotoc.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotoc.vcxproj]
+  cpp_generator.cc
+  cpp_helpers.cc
+  cpp_map_field.cc
+  cpp_message.cc
+  cpp_message_field.cc
+  cpp_padding_optimizer.cc
+  cpp_primitive_field.cc
+  cpp_service.cc
+  cpp_string_field.cc
+  csharp_doc_comment.cc
+  csharp_enum.cc
+  csharp_enum_field.cc
+  csharp_field_base.cc
+  csharp_generator.cc
+  csharp_helpers.cc
+  csharp_map_field.cc
+  csharp_message.cc
+  csharp_message_field.cc
+  csharp_primitive_field.cc
+  csharp_reflection_class.cc
+  csharp_repeated_enum_field.cc
+  csharp_repeated_message_field.cc
+  csharp_repeated_primitive_field.cc
+  csharp_source_generator_base.cc
+  csharp_wrapper_field.cc
+  java_context.cc
+  java_doc_comment.cc
+  java_enum.cc
+  java_enum_field.cc
+  java_enum_field_lite.cc
+  java_enum_lite.cc
+  java_extension.cc
+  java_extension_lite.cc
+  java_field.cc
+  java_file.cc
+  java_generator.cc
+  java_generator_factory.cc
+  java_helpers.cc
+  java_map_field.cc
+  java_map_field_lite.cc
+  java_message.cc
+  java_message_builder.cc
+  java_message_builder_lite.cc
+  java_message_field.cc
+  java_message_field_lite.cc
+  java_message_lite.cc
+  java_name_resolver.cc
+  java_primitive_field.cc
+  java_primitive_field_lite.cc
+  java_service.cc
+  java_shared_code_generator.cc
+  java_string_field.cc
+  java_string_field_lite.cc
+  js_generator.cc
+  well_known_types_embed.cc
+  objectivec_enum.cc
+  objectivec_enum_field.cc
+  objectivec_extension.cc
+  objectivec_field.cc
+  objectivec_file.cc
+  objectivec_generator.cc
+  objectivec_helpers.cc
+  objectivec_map_field.cc
+  objectivec_message.cc
+  objectivec_message_field.cc
+  objectivec_oneof.cc
+  objectivec_primitive_field.cc
+  php_generator.cc
+  plugin.cc
+  plugin.pb.cc
+  python_generator.cc
+  ruby_generator.cc
+  subprocess.cc
+  zip_writer.cc
+  libprotoc.vcxproj -> C:\Projects\OpenSteamTool-main\.deps\protobuf-build\Release\libprotoc.lib
+  Building Custom Rule C:/Projects/OpenSteamTool-main/.deps/protobuf-src/cmake/CMakeLists.txt
+  main.cc
+  protoc.vcxproj -> C:\Projects\OpenSteamTool-main\.deps\protobuf-build\Release\protoc.exe
+  Building Custom Rule C:/Projects/OpenSteamTool-main/.deps/spdlog-src/CMakeLists.txt
+  spdlog.cpp
+  stdout_sinks.cpp
+  color_sinks.cpp
+  file_sinks.cpp
+  async.cpp
+  cfg.cpp
+  bundled_fmtlib_format.cpp
+  Gerando Código...
+  spdlog.vcxproj -> C:\Projects\OpenSteamTool-main\.deps\spdlog-build\Release\spdlog.lib
+  Generating protobuf sources
+  Building Custom Rule C:/Projects/OpenSteamTool-main/src/CMakeLists.txt
+  AppTicket.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/AppTicket.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/AppTicket.cpp')
+
+  ByteSearch.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/ByteSearch.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/ByteSearch.cpp')
+
+  PatternLoader.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/PatternLoader.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/PatternLoader.cpp')
+
+  Log.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/Log.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/Log.cpp')
+
+  Config.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/Config.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/Config.cpp')
+
+  LuaConfig.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/LuaConfig.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/LuaConfig.cpp')
+
+  VehCommon.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/VehCommon.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/VehCommon.cpp')
+
+  FileWatcher.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/FileWatcher.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/FileWatcher.cpp')
+
+  WinHttp.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/WinHttp.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/WinHttp.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(1693,1): error C2059: erro de sintaxe: 'stati
+c_assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/WinHttp.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2010,1): error C2059: erro de sintaxe: 'stati
+c_assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/WinHttp.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2085,1): error C2059: erro de sintaxe: 'stati
+c_assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/WinHttp.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2180,1): error C2059: erro de sintaxe: 'stati
+c_assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Utils/WinHttp.cpp')
+
+C:\Projects\OpenSteamTool-main\src\Utils\WinHttp.cpp(65,16): error C2086: 'WinHttp::Result r': redefinição [C:\Projects
+\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+      C:\Projects\OpenSteamTool-main\src\Utils\WinHttp.cpp(60,12):
+      consulte a declaração de 'r'
+
+  HookManager.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/HookManager.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/HookManager.cpp')
+
+  Hooks_Decryption.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_Decryption.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_Decryption.cpp')
+
+  Hooks_IPC.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_IPC.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_IPC.cpp')
+
+  Hooks_IPC_ISteamUser.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_IPC_ISteamUser.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_IPC_ISteamUser.cpp')
+
+  Hooks_IPC_ISteamUtils.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_IPC_ISteamUtils.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_IPC_ISteamUtils.cpp')
+
+  Hooks_KeyValues.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_KeyValues.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_KeyValues.cpp')
+
+  Hooks_Manifest.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_Manifest.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_Manifest.cpp')
+
+  Hooks_Misc.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_Misc.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_Misc.cpp')
+
+  Hooks_NetPacket.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_NetPacket.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_NetPacket.cpp')
+
+  Hooks_SteamUI.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_SteamUI.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_SteamUI.cpp')
+
+  Hooks_Package.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9054,66): error C2059: erro de sintaxe: 'static_
+assert' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_Package.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\msxml.h(9055,54): error C2238: token(s) inesperado(s) pr
+ecedendo ';' [C:\Projects\OpenSteamTool-main\build\src\OpenSteamTool.vcxproj]
+  (compilando o arquivo fonte '../../src/Hook/Hooks_Package.cpp')
+
+  Gerando Código...
+  Compilando...
+  steam_messages.pb.cc
+  Gerando Código...
+  Building Custom Rule C:/Projects/OpenSteamTool-main/src/CMakeLists.txt
+  dwmapi.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\WinSock2.h(17,9): warning C4005: '_WINSOCKAPI_': redefin
+ição de macro [C:\Projects\OpenSteamTool-main\build\src\dwmapi.vcxproj]
+  (compilando o arquivo fonte '../../src/dwmapi/dwmapi.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\WinSock2.h(17,9):
+      '_WINSOCKAPI_' declarado anteriormente na linha de comando
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\WinSock2.h(1693,1): error C2059: erro de sintaxe: 'stati
+c_assert' [C:\Projects\OpenSteamTool-main\build\src\dwmapi.vcxproj]
+  (compilando o arquivo fonte '../../src/dwmapi/dwmapi.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\WinSock2.h(2010,1): error C2059: erro de sintaxe: 'stati
+c_assert' [C:\Projects\OpenSteamTool-main\build\src\dwmapi.vcxproj]
+  (compilando o arquivo fonte '../../src/dwmapi/dwmapi.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\WinSock2.h(2085,1): error C2059: erro de sintaxe: 'stati
+c_assert' [C:\Projects\OpenSteamTool-main\build\src\dwmapi.vcxproj]
+  (compilando o arquivo fonte '../../src/dwmapi/dwmapi.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\WinSock2.h(2180,1): error C2059: erro de sintaxe: 'stati
+c_assert' [C:\Projects\OpenSteamTool-main\build\src\dwmapi.vcxproj]
+  (compilando o arquivo fonte '../../src/dwmapi/dwmapi.cpp')
+
+  Building Custom Rule C:/Projects/OpenSteamTool-main/.deps/protobuf-src/cmake/CMakeLists.txt
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf-lite.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf-lite.vcxproj]
+  any_lite.cc
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf-lite.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf-lite.vcxproj]
+  arena.cc
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf-lite.vcxproj]
+  arenastring.cc
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf-lite.vcxproj]
+  extension_set.cc
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf-lite.vcxproj]
+  generated_enum_util.cc
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf-lite.vcxproj]
+  generated_message_table_driven_lite.cc
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf-lite.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf-lite.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf-lite.vcxproj]
+  generated_message_util.cc
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf-lite.vcxproj]
+cl : linha de comando  warning D9025: substituindo '/W1' com '/w' [C:\Projects\OpenSteamTool-main\.deps\protobuf-build\
+libprotobuf-lite.vcxproj]
+  implicit_weak_message.cc
+  coded_stream.cc
+  io_win32.cc
+  strtod.cc
+  zero_copy_stream.cc
+  zero_copy_stream_impl.cc
+  zero_copy_stream_impl_lite.cc
+  map.cc
+  message_lite.cc
+  parse_context.cc
+  repeated_field.cc
+  bytestream.cc
+  common.cc
+  int128.cc
+  status.cc
+  statusor.cc
+  stringpiece.cc
+  stringprintf.cc
+  structurally_valid.cc
+  strutil.cc
+  time.cc
+  wire_format_lite.cc
+  libprotobuf-lite.vcxproj -> C:\Projects\OpenSteamTool-main\.deps\protobuf-build\Release\libprotobuf-lite.lib
+  Building Custom Rule C:/Projects/OpenSteamTool-main/src/CMakeLists.txt
+  xinput1_4.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\WinSock2.h(17,9): warning C4005: '_WINSOCKAPI_': redefin
+ição de macro [C:\Projects\OpenSteamTool-main\build\src\xinput1_4.vcxproj]
+  (compilando o arquivo fonte '../../src/xinput1_4/xinput1_4.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\WinSock2.h(17,9):
+      '_WINSOCKAPI_' declarado anteriormente na linha de comando
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\WinSock2.h(1693,1): error C2059: erro de sintaxe: 'stati
+c_assert' [C:\Projects\OpenSteamTool-main\build\src\xinput1_4.vcxproj]
+  (compilando o arquivo fonte '../../src/xinput1_4/xinput1_4.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\WinSock2.h(2010,1): error C2059: erro de sintaxe: 'stati
+c_assert' [C:\Projects\OpenSteamTool-main\build\src\xinput1_4.vcxproj]
+  (compilando o arquivo fonte '../../src/xinput1_4/xinput1_4.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\WinSock2.h(2085,1): error C2059: erro de sintaxe: 'stati
+c_assert' [C:\Projects\OpenSteamTool-main\build\src\xinput1_4.vcxproj]
+  (compilando o arquivo fonte '../../src/xinput1_4/xinput1_4.cpp')
+
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\WinSock2.h(2180,1): error C2059: erro de sintaxe: 'stati
+c_assert' [C:\Projects\OpenSteamTool-main\build\src\xinput1_4.vcxproj]
+  (compilando o arquivo fonte '../../src/xinput1_4/xinput1_4.cpp')
